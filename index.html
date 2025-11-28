@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Calculator</title>
-<style>
-    @font-face {
-    font-family: 'DS-Digital Normal';
-    font-style: normal;
-    font-weight: normal;
-    src: local('DS-Digital Normal'), url('DS-DIGI.woff') format('woff');
-    }
-    .calculator-body{
-        background-color:#3D3D5C;
-        height: 300px;
-        width: 250px;
-        margin:30px auto ;
-        border-radius: 5px;
-        padding:20px;
-        padding-top: 40px;
-         }
-         .screen{
+    <title>Calculator</title>
+    <style>
+        @font-face {
+            font-family: 'DS-Digital Normal';
+            font-style: normal;
+            font-weight: normal;
+            src: local('DS-Digital Normal'), url('DS-DIGI.woff') format('woff');
+        }
+
+        .calculator-body {
+            background-color: #3D3D5C;
+            height: 300px;
+            width: 250px;
+            margin: 30px auto;
+            border-radius: 5px;
+            padding: 20px;
+            padding-top: 40px;
+        }
+
+        .screen {
             background-color: #A1AF77;
-           text-align: right; 
-           width: 220PX;
-           display: block;
-           margin: 0px auto;
-           font-size: 25px;
-           padding:5px 10px;
-           margin-bottom: 20px;
-           font-family: "DS-Digital Normal";
-         }
-         .btn{
+            text-align: right;
+            width: 220PX;
+            display: block;
+            margin: 0px auto;
+            font-size: 25px;
+            padding: 5px 10px;
+            margin-bottom: 20px;
+            font-family: "DS-Digital Normal";
+        }
+
+        .btn {
             width: 50px;
             text-align: center;
             padding: 2px;
@@ -41,52 +45,57 @@
             border-radius: 5px;
             cursor: pointer;
         }
-        .btn:hover{
+
+        .btn:hover {
             box-shadow: 0 0 5px 0 #fff;
             transition: 0.5s;
         }
-         .button-container{
+
+        .button-container {
             height: 200px;
-            display:flex ;
+            display: flex;
             flex-direction: column;
             flex-wrap: wrap;
-           justify-content: space-between;
+            justify-content: space-between;
             align-items: center;
-            }
-            .btn-equl{
-                height: 70px;
-                background-color: #FF6348;
-                color: white;
-            }
-</style>
+        }
+
+        .btn-equl {
+            height: 70px;
+            background-color: #FF6348;
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
-   <div class="calculator-body">
-    <input type="text" value="0" class="screen"/>
-    <div class="button-container">
-        <button class="btn">AC</button>
-        <button class="btn">7</button>
-        <button class="btn">4</button>
-        <button class="btn">1</button>
-        <button class="btn">0</button>
+    <div class="calculator-body">
+        <input type="text" value="0" class="screen" />
+        <div class="button-container">
+            <button class="btn">AC</button>
+            <button class="btn">7</button>
+            <button class="btn">4</button>
+            <button class="btn">1</button>
+            <button class="btn">0</button>
 
-        <button class="btn">M+</button>
-        <button class="btn">8</button>
-        <button class="btn">5</button>
-        <button class="btn">2</button>
-        <button class="btn">.</button>
+            <button class="btn">M+</button>
+            <button class="btn">8</button>
+            <button class="btn">5</button>
+            <button class="btn">2</button>
+            <button class="btn">.</button>
 
-        <button class="btn">/</button>
-        <button class="btn">9</button>
-        <button class="btn">6</button>
-        <button class="btn">3</button>
-        <button class="btn">%</button>
+            <button class="btn">/</button>
+            <button class="btn">9</button>
+            <button class="btn">6</button>
+            <button class="btn">3</button>
+            <button class="btn">%</button>
 
-        <button class="btn">X</button>
-        <button class="btn">-</button>
-        <button class="btn">+</button>
-        <button class="btn btn-equl">=</button>
+            <button class="btn">X</button>
+            <button class="btn">-</button>
+            <button class="btn">+</button>
+            <button class="btn btn-equl">=</button>
+        </div>
     </div>
-   </div> 
 </body>
+
 </html>
