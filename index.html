@@ -27,15 +27,30 @@
             text-align: center;
             padding: 2px;
             font-size: 20px;
+            margin: 4px;
+            justify-content: space-between;
+            align-items: center;
+            border: 0.5px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            box-shadow: 0 0 5px 0 #fff;
+            transition: 0.5s;
         }
          .button-container{
             height: 200px;
             display:flex ;
             flex-direction: column;
             flex-wrap: wrap;
-
-
-          }
+           justify-content: space-between;
+            align-items: center;
+            }
+            .btn-equl{
+                height: 70px;
+                background-color: #FF6348;
+                color: white;
+            }
 </style>
 </head>
 <body>
@@ -63,7 +78,7 @@
         <button class="btn">X</button>
         <button class="btn">-</button>
         <button class="btn">+</button>
-        <button class="btn">=</button>
+        <button class="btn btn-equl">=</button>
     </div>
    </div> 
 </body>
